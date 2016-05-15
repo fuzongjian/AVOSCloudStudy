@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		290F6FDD9ABF468FBF695A87EF26D14B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		7DE9102B35E6A475CB4FD4DF194A6AAB /* Pods-AVOSCloudStudy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8064F5E749788793BB1C55185DA824 /* Pods-AVOSCloudStudy-dummy.m */; };
+		8EC7A32B006BA7FFD0BA5750A8294A0B /* Pods-AVOSCloudStudy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2398E32696E55AAC45BA2B06D77070F6 /* Pods-AVOSCloudStudy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02969242B2DFA28D1D60DE6A4D713593 /* AVMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVMessage.h; sourceTree = "<group>"; };
+		06007A7FDD6E88904641873B7438B7F6 /* AVRole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVRole.h; sourceTree = "<group>"; };
+		0D3D800FE2E7A20951B7111803C0AA40 /* AVAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVAnalytics.h; sourceTree = "<group>"; };
+		2398E32696E55AAC45BA2B06D77070F6 /* Pods-AVOSCloudStudy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AVOSCloudStudy-umbrella.h"; sourceTree = "<group>"; };
+		25874E995DCCE409C4BBFE0D795EC2E1 /* Pods-AVOSCloudStudy-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AVOSCloudStudy-acknowledgements.plist"; sourceTree = "<group>"; };
+		304717178AF620D1B50FC43E236A0A97 /* AVHistoryMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVHistoryMessage.h; sourceTree = "<group>"; };
+		37E9E7BF7D34F021CB4C47F56BBD0747 /* AVSubclassing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSubclassing.h; sourceTree = "<group>"; };
+		3AA01A905711234E0988F0934F15954A /* libAVOSCloud.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libAVOSCloud.a; sourceTree = "<group>"; };
+		3ED23A65CF8941A50BFC2D6578E4DAB3 /* Pods-AVOSCloudStudy-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AVOSCloudStudy-frameworks.sh"; sourceTree = "<group>"; };
+		402D3EB02016FC4EB24EBB8E96933F4F /* AVGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVGroup.h; sourceTree = "<group>"; };
+		438A3FDC12733A811A63ABCE2B0EB428 /* AVOSCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVOSCloud.h; sourceTree = "<group>"; };
+		472653B0131A9C6A6602DE673CCB813C /* AVFileQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVFileQuery.h; sourceTree = "<group>"; };
+		4C8064F5E749788793BB1C55185DA824 /* Pods-AVOSCloudStudy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AVOSCloudStudy-dummy.m"; sourceTree = "<group>"; };
+		52A992F9250BB9A48CC4A9AB7162B990 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58413053E56D81100D9476933C4F1EF7 /* AVObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVObject.h; sourceTree = "<group>"; };
+		5AA3386330CA90C617D1508B3F7B3A7D /* AVSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSession.h; sourceTree = "<group>"; };
+		5CF3070FFDCB4EBA387084DCE51026EF /* AVAvailability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVAvailability.h; sourceTree = "<group>"; };
+		6D99A36FD409260271747A04463C08DB /* AVUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVUser.h; sourceTree = "<group>"; };
+		77177870F64A5E0145673FED7F7C1E92 /* AVFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVFile.h; sourceTree = "<group>"; };
+		7D16B7361CB6BED672294B6FBD872A8D /* AVPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVPush.h; sourceTree = "<group>"; };
+		8182B6CF46682154EE58E70AC1144446 /* Pods-AVOSCloudStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AVOSCloudStudy.release.xcconfig"; sourceTree = "<group>"; };
+		81B0660A292D8762808F45E06CA156AD /* AVStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVStatus.h; sourceTree = "<group>"; };
+		887D4BC803BE3C827C71B71C2B3AFB26 /* Pods-AVOSCloudStudy-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AVOSCloudStudy-acknowledgements.markdown"; sourceTree = "<group>"; };
+		89C669869D3793EE03732FD5FBC05CD1 /* AVCloudQueryResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVCloudQueryResult.h; sourceTree = "<group>"; };
+		8D71200F211B0D4BBD3E11E0E1015182 /* AVConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVConstants.h; sourceTree = "<group>"; };
+		908246D24CE04E75F1E3335883EE7384 /* AVQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVQuery.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		964A12E8BE23E16EB944E44844D54197 /* AVRelation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVRelation.h; sourceTree = "<group>"; };
+		96AD0792707CEC843043FA43C1B8805A /* AVGeoPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVGeoPoint.h; sourceTree = "<group>"; };
+		97922FC67ED4532473B7A3ED530AC7D9 /* AVAnonymousUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVAnonymousUtils.h; sourceTree = "<group>"; };
+		9C594EA76D448A7BAEAD020ABA24317C /* AVLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVLogger.h; sourceTree = "<group>"; };
+		9D67EF84750F0D9C2D6D85E14F2EE1D6 /* AVObject+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AVObject+Subclass.h"; sourceTree = "<group>"; };
+		A11CA237ACAFFF303283F3BEED43CB03 /* AVHistoryMessageQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVHistoryMessageQuery.h; sourceTree = "<group>"; };
+		B2BC3B14A878F8401626AECA0B10BA2B /* Pods-AVOSCloudStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AVOSCloudStudy.debug.xcconfig"; sourceTree = "<group>"; };
+		BA5F3C53E61C1DD8AF6A4288DB84C8B6 /* AVSearchQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSearchQuery.h; sourceTree = "<group>"; };
+		BA72864E7AB6E6E3A2FE521C809BA46B /* AVSaveOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSaveOption.h; sourceTree = "<group>"; };
+		C53B1A66CC5871970AF7A31EFF2FEDE4 /* AVInstallation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVInstallation.h; sourceTree = "<group>"; };
+		C65C50843401C738CCC6E3D54A46B1E1 /* Pods-AVOSCloudStudy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AVOSCloudStudy.modulemap"; sourceTree = "<group>"; };
+		CAE79EA8B028D7A121DBC23CAC529761 /* AVSignature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSignature.h; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D12A6275D55EE77F63C386C43E3EC6E7 /* AVCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVCloud.h; sourceTree = "<group>"; };
+		DD6707A237AED8C24CFE88D65EB32B13 /* AVSearchSortBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSearchSortBuilder.h; sourceTree = "<group>"; };
+		E0DAF55B69CC73CB06220B92C5C5A2C6 /* AVACL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVACL.h; sourceTree = "<group>"; };
+		E3B9E6389EFFA3E6D82FA56285AFFD65 /* Pods-AVOSCloudStudy-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AVOSCloudStudy-resources.sh"; sourceTree = "<group>"; };
+		FA031F910725835E09FD638CA8004FB6 /* Pods_AVOSCloudStudy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AVOSCloudStudy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C5B9DD15C057DFE5C6E6D427A15A888 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290F6FDD9ABF468FBF695A87EF26D14B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02D855DDE1D1FAAF1706298355B814B0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CC468F9580D7E465C07D0D92AC8BB8B /* Pods-AVOSCloudStudy */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		17B97B789A86B1C733236A23B4651999 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA031F910725835E09FD638CA8004FB6 /* Pods_AVOSCloudStudy.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E8D9E129DA3364C79ED89877499D456 /* AVOSCloud */ = {
+			isa = PBXGroup;
+			children = (
+				E0DAF55B69CC73CB06220B92C5C5A2C6 /* AVACL.h */,
+				0D3D800FE2E7A20951B7111803C0AA40 /* AVAnalytics.h */,
+				97922FC67ED4532473B7A3ED530AC7D9 /* AVAnonymousUtils.h */,
+				5CF3070FFDCB4EBA387084DCE51026EF /* AVAvailability.h */,
+				D12A6275D55EE77F63C386C43E3EC6E7 /* AVCloud.h */,
+				89C669869D3793EE03732FD5FBC05CD1 /* AVCloudQueryResult.h */,
+				8D71200F211B0D4BBD3E11E0E1015182 /* AVConstants.h */,
+				77177870F64A5E0145673FED7F7C1E92 /* AVFile.h */,
+				472653B0131A9C6A6602DE673CCB813C /* AVFileQuery.h */,
+				96AD0792707CEC843043FA43C1B8805A /* AVGeoPoint.h */,
+				402D3EB02016FC4EB24EBB8E96933F4F /* AVGroup.h */,
+				304717178AF620D1B50FC43E236A0A97 /* AVHistoryMessage.h */,
+				A11CA237ACAFFF303283F3BEED43CB03 /* AVHistoryMessageQuery.h */,
+				C53B1A66CC5871970AF7A31EFF2FEDE4 /* AVInstallation.h */,
+				9C594EA76D448A7BAEAD020ABA24317C /* AVLogger.h */,
+				02969242B2DFA28D1D60DE6A4D713593 /* AVMessage.h */,
+				58413053E56D81100D9476933C4F1EF7 /* AVObject.h */,
+				9D67EF84750F0D9C2D6D85E14F2EE1D6 /* AVObject+Subclass.h */,
+				438A3FDC12733A811A63ABCE2B0EB428 /* AVOSCloud.h */,
+				7D16B7361CB6BED672294B6FBD872A8D /* AVPush.h */,
+				908246D24CE04E75F1E3335883EE7384 /* AVQuery.h */,
+				964A12E8BE23E16EB944E44844D54197 /* AVRelation.h */,
+				06007A7FDD6E88904641873B7438B7F6 /* AVRole.h */,
+				BA72864E7AB6E6E3A2FE521C809BA46B /* AVSaveOption.h */,
+				BA5F3C53E61C1DD8AF6A4288DB84C8B6 /* AVSearchQuery.h */,
+				DD6707A237AED8C24CFE88D65EB32B13 /* AVSearchSortBuilder.h */,
+				5AA3386330CA90C617D1508B3F7B3A7D /* AVSession.h */,
+				CAE79EA8B028D7A121DBC23CAC529761 /* AVSignature.h */,
+				81B0660A292D8762808F45E06CA156AD /* AVStatus.h */,
+				37E9E7BF7D34F021CB4C47F56BBD0747 /* AVSubclassing.h */,
+				6D99A36FD409260271747A04463C08DB /* AVUser.h */,
+				45053847162D22311638D25723FEA96B /* Frameworks */,
+			);
+			path = AVOSCloud;
+			sourceTree = "<group>";
+		};
+		35D88D1E99EB42F0AE08F3C354F73529 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E8D9E129DA3364C79ED89877499D456 /* AVOSCloud */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		45053847162D22311638D25723FEA96B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AA01A905711234E0988F0934F15954A /* libAVOSCloud.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				35D88D1E99EB42F0AE08F3C354F73529 /* Pods */,
+				17B97B789A86B1C733236A23B4651999 /* Products */,
+				02D855DDE1D1FAAF1706298355B814B0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8CC468F9580D7E465C07D0D92AC8BB8B /* Pods-AVOSCloudStudy */ = {
+			isa = PBXGroup;
+			children = (
+				52A992F9250BB9A48CC4A9AB7162B990 /* Info.plist */,
+				C65C50843401C738CCC6E3D54A46B1E1 /* Pods-AVOSCloudStudy.modulemap */,
+				887D4BC803BE3C827C71B71C2B3AFB26 /* Pods-AVOSCloudStudy-acknowledgements.markdown */,
+				25874E995DCCE409C4BBFE0D795EC2E1 /* Pods-AVOSCloudStudy-acknowledgements.plist */,
+				4C8064F5E749788793BB1C55185DA824 /* Pods-AVOSCloudStudy-dummy.m */,
+				3ED23A65CF8941A50BFC2D6578E4DAB3 /* Pods-AVOSCloudStudy-frameworks.sh */,
+				E3B9E6389EFFA3E6D82FA56285AFFD65 /* Pods-AVOSCloudStudy-resources.sh */,
+				2398E32696E55AAC45BA2B06D77070F6 /* Pods-AVOSCloudStudy-umbrella.h */,
+				B2BC3B14A878F8401626AECA0B10BA2B /* Pods-AVOSCloudStudy.debug.xcconfig */,
+				8182B6CF46682154EE58E70AC1144446 /* Pods-AVOSCloudStudy.release.xcconfig */,
+			);
+			name = "Pods-AVOSCloudStudy";
+			path = "Target Support Files/Pods-AVOSCloudStudy";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EC3A67D027D9DD5D1D968292D73D3201 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC7A32B006BA7FFD0BA5750A8294A0B /* Pods-AVOSCloudStudy-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		664389B6ECFD4A968CC7228D932F9FFD /* Pods-AVOSCloudStudy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A3A744079260887834C3CE972CF7769 /* Build configuration list for PBXNativeTarget "Pods-AVOSCloudStudy" */;
+			buildPhases = (
+				6E33FDE6EB01F7B0E76B755B461515E0 /* Sources */,
+				6C5B9DD15C057DFE5C6E6D427A15A888 /* Frameworks */,
+				EC3A67D027D9DD5D1D968292D73D3201 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AVOSCloudStudy";
+			productName = "Pods-AVOSCloudStudy";
+			productReference = FA031F910725835E09FD638CA8004FB6 /* Pods_AVOSCloudStudy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 17B97B789A86B1C733236A23B4651999 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				664389B6ECFD4A968CC7228D932F9FFD /* Pods-AVOSCloudStudy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E33FDE6EB01F7B0E76B755B461515E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DE9102B35E6A475CB4FD4DF194A6AAB /* Pods-AVOSCloudStudy-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		14AA415B0ABD16C07301E4460861B40A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8182B6CF46682154EE58E70AC1144446 /* Pods-AVOSCloudStudy.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AVOSCloudStudy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AVOSCloudStudy/Pods-AVOSCloudStudy.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AVOSCloudStudy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3114A46FFF6C651CBDD1897EA399E6AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2BC3B14A878F8401626AECA0B10BA2B /* Pods-AVOSCloudStudy.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AVOSCloudStudy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AVOSCloudStudy/Pods-AVOSCloudStudy.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AVOSCloudStudy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A3A744079260887834C3CE972CF7769 /* Build configuration list for PBXNativeTarget "Pods-AVOSCloudStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3114A46FFF6C651CBDD1897EA399E6AD /* Debug */,
+				14AA415B0ABD16C07301E4460861B40A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
